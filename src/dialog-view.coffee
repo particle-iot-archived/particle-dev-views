@@ -1,14 +1,14 @@
 # Forked dialog from tree-view package: https://github.com/atom/tree-view/blob/master/lib/dialog.coffee
 {View} = require 'atom-space-pen-views'
 path = require 'path'
-MiniEditor = require './mini-editor'
+MiniEditorView = require './mini-editor-view'
 
 module.exports =
 class DialogView extends View
   @content: ({prompt} = {}) ->
     @div class: 'spark-dev-dialog-view', =>
       @label prompt, class: 'icon', outlet: 'promptText'
-      @subview 'miniEditor', new MiniEditor()
+      @subview 'miniEditor', new MiniEditorView()
       @div class: 'error-message', outlet: 'errorMessage'
 
   initialize: ({initialText, select, iconClass, hideOnBlur} = {}) ->
