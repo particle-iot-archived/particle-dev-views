@@ -1,9 +1,9 @@
-{$, View, TextEditorView} = require 'atom-space-pen-views'
+{View, TextEditorView} = require 'atom-space-pen-views'
 
 module.exports =
-class MiniEditor extends View
+class MiniEditorView extends View
 	@content: ->
-		@div class: 'spark-dev-mini-editor', =>
+		@div class: 'spark-dev-mini-editor-view', =>
 			@subview 'editor', new TextEditorView(mini: true)
 			@div class: 'editor-disabled', outlet: 'editorOverlay'
 

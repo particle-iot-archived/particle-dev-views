@@ -1,6 +1,6 @@
 {
   "name": "spark-dev-views",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of views used by Spark Dev",
   "main": "src/main",
   "repository": {
