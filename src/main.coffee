@@ -1,2 +1,2 @@
-module.exports.Dialog = require './dialog'
-module.exports.MiniEditor = require './mini-editor'
+module.exports.DialogView = require './dialog-view'
+module.exports.MiniEditorView = require './mini-editor-view'
