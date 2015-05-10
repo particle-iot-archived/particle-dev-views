@@ -14,6 +14,8 @@ class MiniEditorView extends View
 			if not @enabled
 				@editor.blur()
 
+	destroy: ->
+
 	setEnabled: (isEnabled) ->
 		@enabled = isEnabled
 		if isEnabled
