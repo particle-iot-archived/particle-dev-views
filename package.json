@@ -1,11 +1,11 @@
 {
-  "name": "spark-dev-views",
-  "version": "0.0.2",
+  "name": "particle-dev-views",
+  "version": "0.0.3",
   "description": "Collection of views used by Spark Dev",
   "main": "src/main",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spark/spark-dev-views.git"
+    "url": "https://github.com/spark/particle-dev-views.git"
   },
   "dependencies": {
     "atom-space-pen-views": "^2.0.3"
@@ -16,7 +16,7 @@
   },
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/spark/spark-dev-views/issues"
+    "url": "https://github.com/spark/particle-dev-views/issues"
   },
-  "homepage": "https://github.com/spark/spark-dev-views"
+  "homepage": "https://github.com/spark/particle-dev-views"
 }
