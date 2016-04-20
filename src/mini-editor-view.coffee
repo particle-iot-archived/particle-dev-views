@@ -3,7 +3,7 @@
 module.exports =
 class MiniEditorView extends View
 	@content: ->
-		@div class: 'spark-dev-mini-editor-view', =>
+		@div class: 'particle-dev-mini-editor-view', =>
 			@subview 'editor', new TextEditorView(mini: true)
 			@div class: 'editor-disabled', outlet: 'editorOverlay'
 

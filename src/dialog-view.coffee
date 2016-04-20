@@ -6,7 +6,7 @@ MiniEditorView = require './mini-editor-view'
 module.exports =
 class DialogView extends View
   @content: ({prompt} = {}) ->
-    @div class: 'spark-dev-dialog-view', =>
+    @div class: 'particle-dev-dialog-view', =>
       @label prompt, class: 'icon', outlet: 'promptText'
       @subview 'miniEditor', new MiniEditorView()
       @div class: 'error-message', outlet: 'errorMessage'

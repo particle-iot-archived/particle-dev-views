@@ -1,7 +1,7 @@
 {
   "name": "particle-dev-views",
-  "version": "0.0.3",
-  "description": "Collection of views used by Spark Dev",
+  "version": "0.1.0",
+  "description": "Collection of views used by Particle Dev",
   "main": "src/main",
   "repository": {
     "type": "git",
